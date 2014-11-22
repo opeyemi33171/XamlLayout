@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlLayout", "XamlLayout\XamlLayout.csproj", "{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|ARM.Build.0 = Debug|ARM
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|x86.ActiveCfg = Debug|x86
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|x86.Build.0 = Debug|x86
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Debug|x86.Deploy.0 = Debug|x86
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|ARM.ActiveCfg = Release|ARM
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|ARM.Build.0 = Release|ARM
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|ARM.Deploy.0 = Release|ARM
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|x86.ActiveCfg = Release|x86
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|x86.Build.0 = Release|x86
+		{C4CF6EBB-1A54-45B4-91BE-A77AB3ECFDCC}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+EndGlobal
