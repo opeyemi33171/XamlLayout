@@ -10,17 +10,56 @@
 
     <Grid Background="#FFF7F7F7">
     	<Border Margin="0" VerticalAlignment="Top" BorderThickness="1,0,0,1" BorderBrush="#FFA49F9F" >
-    		<TextBlock TextWrapping="Wrap" Text="Scroll down to load" Foreground="Black" TextAlignment="Center" FontSize="24">
-    			<TextBlock.SelectionHighlightColor>
-    				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-    					<GradientStop Color="Black" Offset="0"/>
-    					<GradientStop Color="White" Offset="1"/>
-    				</LinearGradientBrush>
-    			</TextBlock.SelectionHighlightColor>
-    		</TextBlock>
+    		<TextBlock TextWrapping="Wrap" Text="Scroll down to load" Foreground="Black" TextAlignment="Center" FontSize="26.667" SelectionHighlightColor="{x:Null}" Padding="0,10"/>
+    	</Border>
+    	<TextBox VerticalAlignment="Top" TextWrapping="Wrap" Text="Search..." FontSize="21.333" Padding="0" Margin="65,63,57,0"/>
+    	<Border Margin="0,113,0,0" BorderBrush="#FFD3CECE" BorderThickness="0,1,0,0">
+    		<StackPanel Margin="0,0,0,0.167">
+    			<Border Margin="0" VerticalAlignment="Top" Height="60" BorderBrush="#FFCBC4C4" BorderThickness="0,0,0,1">
+    				<Grid>
+    					<Rectangle Fill="#FF4747AE" HorizontalAlignment="Left" Margin="4,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="52" Height="52"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,4,0,0" TextWrapping="Wrap" Text="Zaanse Koeken" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,38,0,0" TextWrapping="Wrap" Text="9.50" VerticalAlignment="Top" Foreground="Black" FontSize="12"/>
+    				</Grid>
+    			</Border>
+    			<Border Height="59" BorderThickness="0,0,0,1" BorderBrush="#FFB2ABAB">
+    				<Grid Margin="0,0,0,0.167">
+    					<Rectangle Fill="#FFB66F47" HorizontalAlignment="Left" Margin="4,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="52" Height="52"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,4,0,0" TextWrapping="Wrap" Text="Wimmers gute" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,38,0,0" TextWrapping="Wrap" Text="33.25" VerticalAlignment="Top" Foreground="Black" FontSize="12"/>
+    				</Grid>
+    			</Border>
+    			<Border Height="59" BorderBrush="#FFAAA6A6" BorderThickness="0,0,0,1">
+    				<Grid Margin="0,0,0,0.167">
+    					<Rectangle Fill="#FFAE4797" HorizontalAlignment="Left" Margin="4,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="52" Height="52"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,4,0,0" TextWrapping="Wrap" Text="Vegie-spread" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,38,0,0" TextWrapping="Wrap" Text="49.90" VerticalAlignment="Top" Foreground="Black" FontSize="12"/>
+    				</Grid>
+    			</Border>
+    			<Border Height="59" BorderBrush="#FFB0A8A8" BorderThickness="0,0,0,1">
+    				<Grid Margin="0,0,0,0.167">
+    					<Rectangle Fill="#FF47AE63" HorizontalAlignment="Left" Margin="4,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="52" Height="52"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,4,0,0" TextWrapping="Wrap" Text="Valkoinen suklaa" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,38,0,0" TextWrapping="Wrap" Text="16.25" VerticalAlignment="Top" Foreground="Black" FontSize="12"/>
+    				</Grid>
+    			</Border>
+    			<Border Height="59" BorderBrush="#FFB0ACAC" BorderThickness="0,0,0,1">
+    				<Grid Margin="0,0,0,0.167">
+    					<Rectangle Fill="#FFC30819" HorizontalAlignment="Left" Margin="4,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="52" Height="52"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,4,0,0" TextWrapping="Wrap" Text="Uncle Bob's Organic" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,38,0,0" TextWrapping="Wrap" Text="30.00" VerticalAlignment="Top" Foreground="Black" FontSize="12"/>
+    				</Grid>
+    			</Border>
+    			<Border Height="59" BorderBrush="#FFBFBABA" BorderThickness="0,0,0,1">
+    				<Grid Margin="0,0,0,0.167">
+    					<Rectangle Fill="#FFDCFF00" HorizontalAlignment="Left" Margin="4,4,0,0" Stroke="Black" VerticalAlignment="Top" Width="52" Height="52"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,4,0,0" TextWrapping="Wrap" Text="Tunnbrod" VerticalAlignment="Top" Foreground="Black" FontSize="24"/>
+    					<TextBlock HorizontalAlignment="Left" Margin="82,38,0,0" TextWrapping="Wrap" Text="30.00" VerticalAlignment="Top" Foreground="Black" FontSize="12"/>
+    				</Grid>
+    			</Border>
+    		</StackPanel>
 
     	</Border>
-    	<TextBox VerticalAlignment="Top" TextWrapping="Wrap" Text="TextBox" FontSize="13.333" Padding="0" Margin="61,37,61,0"/>
 
     </Grid>
 </Page>
